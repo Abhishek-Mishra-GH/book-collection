@@ -20,7 +20,7 @@ export default function Book({ title, author, year, description }) {
       }}>
         <div>
           <h2>{title}</h2>
-          <p style={{fontSize: "16px"}}>by {author} ({year})</p>
+          <p style={{fontSize: "19px"}}>by {author} ({year})</p>
         </div>
 
         {/* Show description part */}
@@ -42,8 +42,8 @@ export default function Book({ title, author, year, description }) {
       {/* Description */}
       <p style={{ 
         display: isDescriptionShown ? "block" : "none",
-        marginTop: "15px",
-        fontSize: "small"
+        marginTop: "12px",
+        fontSize: "17"
       }}> {description} </p>
 
     </div>
