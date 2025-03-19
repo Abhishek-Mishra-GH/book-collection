@@ -89,7 +89,7 @@ export default function BookList() {
   return (
     <div style={{
       width: "100%",
-      maxWidth: "1080px",
+      maxWidth: "780px",
       marginTop: "16px",
       marginBottom: "16px",
       marginInline: "auto",
